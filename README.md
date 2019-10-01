@@ -1,2 +1,0 @@
-# WoodWick
-My Website!
