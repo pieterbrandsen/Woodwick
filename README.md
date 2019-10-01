@@ -1,2 +1,2 @@
-# woodwick
+# WoodWick
 My Website!
