@@ -6,4 +6,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Disallow:
 
-'Sitemap: http://www.example.com/sitemap.xml'
+Sitemap: https://pieterbrandsen.github.io/woodwick/sitemap.xml
