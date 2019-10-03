@@ -139,6 +139,7 @@ ul.menu li a:hover
     max-height: 10%;
     min-height: 5%;
     height: 400px;
+    max-width: 1500px;
 }
 .grid-container1 > div {
     background-color: rgba(255, 255, 255, 0.8);
@@ -155,6 +156,7 @@ ul.menu li a:hover
     max-height: 10%;
     min-height: 5%;
     height: 500px;
+    max-width: 1500px;
 }
 .grid-container2 > div {
     background-color: rgba(255, 255, 255, 0.8);
@@ -227,6 +229,3 @@ a:active {
     display: block;
     text-align: center;
 }
-
-
-
