@@ -6,4 +6,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Disallow:
 
-Sitemap: https://pieterbrandsen.github.io/woodwick/sitemap.xml
+Sitemap: http://www.woodwick-information.nl/sitemap.xml
