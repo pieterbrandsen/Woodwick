@@ -1,9 +1,4 @@
-# Groep 1
-User-agent: Googlebot
-Disallow: /nogooglebot/
-
-# Groep 2
 User-agent: *
-Disallow:
+Disallow: /setup/
 
 Sitemap: http://www.woodwick-information.nl/sitemap.xml

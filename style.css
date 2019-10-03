@@ -37,6 +37,7 @@ table tr td
     position: relative;
 }
 .header-img {
+    max-width: 1500px;
     width: 400%;
     height: 100%;
     margin: 0 50% 0 50%;
