@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: /setup/
+Disallow:
 
 Sitemap: http://www.woodwick-information.nl/sitemap.xml
