@@ -209,7 +209,6 @@ ul.menu li a:hover
     width: auto;
 }
 .footer-block {
-    border: #47433F 10px solid;
     top: 50%;
     bottom: 50%;
     width: 500px;
@@ -223,7 +222,6 @@ ul.menu li a:hover
     width: auto;
 }
 .ad-block {
-    border: #47433F 10px solid;
     top: 50%;
     bottom: 50%;
     width: 1000px;
