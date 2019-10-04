@@ -48,7 +48,7 @@ woodwick sale,
 woodwick kaars sale,
 woodwick candles,
 wat is woodwick
-woodwick informatie
+woodwick
 ">
     <meta name="description" content="Een juiste woodwick kaars vinden is natuurlijk moeilijk maar met deze informatie heb je hem zo! Kom gerust eens langs.">
     <title>Dé WoodWick Informatie specialist!</title>
@@ -57,19 +57,14 @@ woodwick informatie
     <meta property="og:locale" content="nl_NL" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="WoodWick-Information" />
-    <meta property="og:description" content="Een juiste woodwick kaars vinden is natuurlijk moeilijk maar met deze informatie heb je hem zo! Kom gerust eens langs."/>
+    <meta property="og:description" content="Heb je nou geen idee wat WoodWick is, kom dan eens langs voor informatie te halen!"/>
     <meta property="og:url" content="https://www.woodwick-information.nl/" />
-    <meta property="og:site_name" content="WoodWick Informatie" />
+    <meta property="og:site_name" content="WoodWick Inoformatie" />
     <meta property="og:image" content="WoodWick">
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:description" content="Een juiste woodwick kaars vinden is natuurlijk moeilijk maar met deze informatie heb je hem zo! Kom gerust eens langs." />
-    <meta name="twitter:title" content="WoodWick Informatie" />
-    <meta name="twitter:image" content="Images/woodwick-logo.jpg" />
 
     <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
     <link href="sitemap.xml" rel="sitemap" type="text/xml" media="screen" />
     <link href="robots.txt" rel="robots" type="text/plain"/>
-    
 
 </head>
 <body>
@@ -77,7 +72,11 @@ woodwick informatie
         <div class="main-header">
             <div class="header-block">
                 <div>
-                    <img class="header-img" src="Images/woodwick-logo.jpg" alt="WoodWick Logo">
+                    <picture>
+                        <source media="(min-width: 800px)" srcset="/Images/woodwick-logo.jpg">
+                        <source media="(min-width: 450px)" srcset="/Images/woodwick-logo.jpg-small.jpg">
+                        <img class="header-img" src="/Images/woodwick-logo.jpg" srcset="/Images/woodwick-logo.jpg" alt="WoodWick Logo">
+                    </picture>
                 </div>
             </div>
         </div>
@@ -100,8 +99,14 @@ woodwick informatie
                     Met de juiste informatie en ervaring over hoe je accessoires kan plaatsen vindt je zo wel een plaats!<br>
                 </p>
                 <div class="main-img-block">
-                    <img class="main-img" src="Images/Interieur/WoodWick-1.jpg" alt="WoodWick in Interieur 1"><br>
-                </div>
+                        <picture>
+                                <source media="(min-width: 1000px)" srcset="/Images/Interieur/Image-1/WoodWick-1000">
+                                <source media="(min-width: 750px)" srcset="/Images/Interieur/Image-1/WoodWick-750">
+                                <source media="(min-width: 500px)" srcset="/Images/Interieur/Image-1/WoodWick-500">
+                                <source media="(min-width: 250px)" srcset="/Images/Interieur/Image-1/WoodWick-250">
+                                <img class="main-img" src="/Images/Interieur/Image-1/WoodWick-1000" srcset="/Images/Interieur/Image-1/WoodWick-1000" alt="WoodWick Interieur Foto">
+                        </picture>
+                </div><br>
                 <p class="text">
                     Een woodwick kaars staat heel gezellig bij een andere woodwick kaarsen.
                 </p>
@@ -219,7 +224,7 @@ woodwick informatie
         <header>
             <div class="main-footer">
                 <div class="footer-bloc center">
-                    <h3>Gemaakt door </h3><a rel="nofollow" href="https://www.linkedin.com/in/pieter-brandsen-417135151/" target="_blank">Pieter Brandsen <title>linkedin</title></a>
+                    <h3>Gemaakt door <a rel="nofollow" href="https://www.linkedin.com/in/pieter-brandsen-417135151/" target="_blank">Pieter Brandsen <title>linkedin</title></a></h3>
                 </div>
             </div>
         </header>

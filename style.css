@@ -3,7 +3,7 @@ html {
     background-color: #FFFFFF;
 }
 
-body, div, h1, h2, h3, h4, h5, h6, p, ul, img, div {
+body, div, h1, h2, h3, h4, h5, h6, p, ul, img {
     margin:0;
     padding:0;
     width: auto;
@@ -27,7 +27,7 @@ table tr td
     border-top: 1px solid #FFF;}
 
 .main-header {
-    height: 20em;
+    height: 250px;
 }
 .header-block {
     top: 50%;
@@ -106,6 +106,7 @@ ul.menu li a:hover
     margin: 20px 25%;
 }
 .main-img-block {
+    border: #3B3B3B 10px solid;
     width: 50%;
 }
 .main-img {
@@ -139,7 +140,7 @@ ul.menu li a:hover
 .grid-container1 {
     display: grid;
     grid-gap: auto;
-    padding: 50px 10px 10px 10px;
+    padding: 5em 1em 1em 1em;
     max-height: auto;
     height: 5%;
     width: auto;
@@ -152,6 +153,7 @@ ul.menu li a:hover
     height: 90%;
 }
 .grid-container2 {
+    position: relative;
     display: grid;
     grid-gap: auto;
     padding: 50px 10px 10px 10px;
