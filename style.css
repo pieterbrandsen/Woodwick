@@ -6,6 +6,8 @@ html {
 body, div, h1, h2, h3, h4, h5, h6, p, ul, img {
     margin:0;
     padding:0;
+    width: auto;
+    height: auto;
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -25,21 +27,21 @@ table tr td
     border-top: 1px solid #FFF;}
 
 .main-header {
-    height: 300px;
+    height: 20em;
 }
 .header-block {
     top: 50%;
     bottom: 50%;
-    width: 250px;
-    height: 10%;
+    width: 50%;
+    height: 0px;
     margin: 0 50% 0 50%;
     transform: translate(-50%, -50%);
     position: relative;
 }
 .header-img {
-    max-width: 1500px;
-    width: 400%;
-    height: 100%;
+    max-width: auto;
+    width: 100%;
+    max-height: auto;
     margin: 0 50% 0 50%;
     transform: translate(-50%, -50%);
     border-bottom: 5px solid #3B3B3B;
@@ -67,7 +69,6 @@ ul.menu {
 }
 
 ul.menu li {
-    float: left;
     padding: 0 0 0 9px;
     list-style: none;
     margin: 8px 4px 0 4px;
@@ -104,10 +105,11 @@ ul.menu li a:hover
     font-family: Arial, Helvetica, sans-serif;
     margin: 20px 25%;
 }
+.main-img-block {
+    width: 50%;
+}
 .main-img {
-    width: 10%;
-    min-width: 500px;
-    max-width: 1000px;
+    width: 100%;
     height: 100%;
     padding: 15px 0;
 }
@@ -136,44 +138,42 @@ ul.menu li a:hover
 }
 .grid-container1 {
     display: grid;
-    grid-gap: 50px;
-    padding: 50px 10px 10px 10px;
-    max-height: 10%;
-    min-height: 5%;
-    height: 400px;
-    max-width: 1500px;
+    grid-gap: auto;
+    padding: 5em 1em 1em 1em;
+    max-height: auto;
+    height: 5%;
+    width: auto;
 }
 .grid-container1 > div {
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
     padding: 0 0;
-    max-width: 200px;
-    min-width: 150px;
+    width: auto;
     height: 90%;
 }
 .grid-container2 {
     display: grid;
-    grid-gap: 200px;
+    grid-gap: auto;
     padding: 50px 10px 10px 10px;
-    max-height: 10%;
-    min-height: 5%;
-    height: 500px;
-    max-width: 1500px;
+    max-height: auto;
+    height: 5%;
+    width: 100%;
 }
 .grid-container2 > div {
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
     padding: 0 0;
     height: 100%;
+    width: auto;
 }
 .grid-text {
     font-size: 25px;
-    height: 15%;
+    height: auto;
+    width: auto;
 }
 .grid-img {
     height: 80%;
-    max-height: 350px;
-    min-height: 300px;
+    width: auto;
 }
 .item1-last {
     grid-column: 5;
