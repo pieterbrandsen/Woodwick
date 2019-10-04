@@ -209,12 +209,27 @@ ul.menu li a:hover
     width: auto;
 }
 .footer-block {
+    border: #47433F 10px solid;
     top: 50%;
     bottom: 50%;
     width: 500px;
     margin: 0 50% 0 50%;
     transform: translate(-50%, -50%);
     position: relative;
+}
+.ad-footer {
+    padding-top: 100px;
+    height: 100px;
+    width: auto;
+}
+.ad-block {
+    border: #47433F 10px solid;
+    top: 50%;
+    bottom: 50%;
+    width: 1000px;
+    margin: 0 50% 0 50%;
+    transform: translate(-50%, -50%);
+    position: relative; 
 }
 
 a:link {
