@@ -3,7 +3,7 @@ html {
     background-color: #FFFFFF;
 }
 
-body, div, h1, h2, h3, h4, h5, h6, p, ul, img {
+body, div, h1, h2, h3, h4, h5, h6, p, ul, img, div {
     margin:0;
     padding:0;
     width: auto;
@@ -139,7 +139,7 @@ ul.menu li a:hover
 .grid-container1 {
     display: grid;
     grid-gap: auto;
-    padding: 5em 1em 1em 1em;
+    padding: 50px 10px 10px 10px;
     max-height: auto;
     height: 5%;
     width: auto;
@@ -157,7 +157,7 @@ ul.menu li a:hover
     padding: 50px 10px 10px 10px;
     max-height: auto;
     height: 5%;
-    width: 100%;
+    width: auto;
 }
 .grid-container2 > div {
     background-color: rgba(255, 255, 255, 0.8);
@@ -167,12 +167,21 @@ ul.menu li a:hover
     width: auto;
 }
 .grid-text {
+    padding-bottom: 20px;
+    height: 5%;
+    width: 50%;
+    margin-right: 50%;
+    margin-left: 50%;
+    min-width: 100px;   
+    transform: translate(-50%, -50%);
+}
+.grid-in-text {
     font-size: 25px;
-    height: auto;
-    width: auto;
+    text-align: center;
 }
 .grid-img {
-    height: 80%;
+    display: block;
+    height: auto;
     width: auto;
 }
 .item1-last {
