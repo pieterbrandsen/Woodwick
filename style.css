@@ -139,10 +139,13 @@ ul.menu li a:hover
 .grid-container1 {
     display: grid;
     grid-gap: auto;
-    padding: 5em 1em 1em 1em;
+    padding: 50px 10px 10px 10px;
     max-height: auto;
     height: 5%;
     width: auto;
+    position: relative;
+    overflow: hidden;
+    max-width: 2000px;
 }
 .grid-container1 > div {
     background-color: rgba(255, 255, 255, 0.8);
@@ -152,13 +155,15 @@ ul.menu li a:hover
     height: 90%;
 }
 .grid-container2 {
-    position: relative;
     display: grid;
     grid-gap: auto;
     padding: 50px 10px 10px 10px;
     max-height: auto;
     height: 5%;
     width: auto;
+    position: relative;
+    overflow: hidden;
+    max-width: 2000px;
 }
 .grid-container2 > div {
     background-color: rgba(255, 255, 255, 0.8);
