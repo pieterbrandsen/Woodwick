@@ -112,6 +112,8 @@ ul.menu li a:hover
     width: auto;
     height: auto;
     padding: 15px 0;
+    overflow: hidden;
+    max-width: 2000px;
 }
 .Htext {
     padding-bottom: 10px;
