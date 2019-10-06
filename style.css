@@ -213,7 +213,6 @@ ul.menu li a:hover
 .footer-block {
     top: 50%;
     bottom: 50%;
-    width: 500px;
     margin: 0 50% 0 50%;
     transform: translate(-50%, -50%);
     position: relative;
