@@ -113,7 +113,7 @@ ul.menu li a:hover
     height: auto;
     padding: 15px 0;
     overflow: hidden;
-    max-width: 2000px;
+    max-width: 100%;
 }
 .Htext {
     padding-bottom: 10px;
@@ -131,12 +131,12 @@ ul.menu li a:hover
     position: relative;
 }
 .maand-kaars {
-    width: 100%;
-    min-width: 100px;
-    max-width: 500px;
-    height: 100%;
-    min-height: 100px;
-    max-height: 500px;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    font-family: 'Domine', serif; 
+    color: #262626;
 }
 .grid-container1 {
     display: grid;
