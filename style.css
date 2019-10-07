@@ -1,3 +1,7 @@
+@font-face {
+    src: url(Fonts/Domine-Regular.ttf);
+    font-family: Domine;
+}
 html {
     height: 100%;
     background-color: #FFFFFF;
@@ -109,7 +113,6 @@ ul.menu li a:hover
     width: auto;
     height: auto;
     overflow: hidden;
-    border: lightgreen 10px solid;
 }
 .main-img {
     width: auto;
@@ -178,7 +181,7 @@ ul.menu li a:hover
     width: auto;
     max-width: 100%;
     font-size: 100%;
-    font-family: 'Domine', serif;
+    font-family: Domine, serif;
     color: #262626;
     text-align: center;
 }
@@ -188,7 +191,7 @@ ul.menu li a:hover
     width: auto;
     max-width: 100%;
     font-size: 200%;
-    font-family: 'Domine', serif;
+    font-family: Domine, serif;
     color: #262626;
     text-align: center;
     
