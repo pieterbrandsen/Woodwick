@@ -211,6 +211,7 @@ ul.menu li a:hover
     width: auto;
 }
 .footer-block {
+    width: 1000px;
     top: 50%;
     bottom: 50%;
     margin: 0 50% 0 50%;
