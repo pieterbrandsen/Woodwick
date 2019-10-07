@@ -115,6 +115,9 @@ ul.menu li a:hover
     overflow: hidden;
     max-width: 100%;
 }
+.list {
+    display: block;
+}
 .Htext {
     padding-bottom: 10px;
     padding-top: 10px;
