@@ -108,6 +108,7 @@ ul.menu li a:hover
 .site-content {
     font-family: Arial, Helvetica, sans-serif;
     margin: 20px 25%;
+    max-width: 2000px;
 }
 .main-img-block {
     width: auto;
@@ -147,12 +148,15 @@ ul.menu li a:hover
     max-height: 100%;
     width: 100%;
     max-width: 100%;
-    }
+    overflow: hidden;
+}
 .grid-container1 > div {
     text-align: center;
     padding: 0 0;
-    width: auto;
     height: auto;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
 }
 .grid-container2 {
     display: grid;
@@ -162,17 +166,21 @@ ul.menu li a:hover
     max-height: 100%;
     width: 100%;
     max-width: 100%;
+    overflow: hidden;
 }
 .grid-container2 > div {
     text-align: center;
     padding: 0 0;
-    width: auto;
     height: auto;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
 }
 .grid-item {
     display: block;
     max-width: 100%;
     max-height: 100%;
+    overflow: hidden;
 }
 .grid-text {
     padding-bottom: 20px;
@@ -201,12 +209,14 @@ ul.menu li a:hover
     max-width: 100%;
     height: auto;
     max-height: 70%;
+    overflow: hidden;
 }
 .maand-img {
     width: auto;
     max-width: 100%;
     height: auto;
     max-height: 70%;
+    overflow: hidden;
 }
 .item1-last {
     grid-column: 5;
