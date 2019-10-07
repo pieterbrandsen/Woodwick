@@ -90,10 +90,10 @@ ul.menu li.selected a
 { height: 20px;
     padding: 6px 20px 5px 11px;}
 
-ul.menu li.selected
-{ margin: 8px 4px 0 13px;
-    background: #B48A7C;}
-
+ul.menu li.selected { 
+    margin: 8px 4px 0 13px;
+    background: #B48A7C;
+}
 ul.menu li.selected a, ul#menu li.selected a:hover
 { background: #B48A7C;
     color: #FFF;}
@@ -113,6 +113,9 @@ ul.menu li a:hover
     height: auto;
     padding: 15px 0;
     overflow: hidden;
+    max-height: 100%;
+    width: 50%;
+    height: 50%;
     max-width: 100%;
 }
 .list {
@@ -133,67 +136,78 @@ ul.menu li a:hover
     padding-bottom: 50px;
     position: relative;
 }
-.maand-kaars {
-    width: auto;
-    max-width: 100%;
-    height: auto;
-    max-height: 100%;
-    font-family: 'Domine', serif; 
-    color: #262626;
-}
 .grid-container1 {
     display: grid;
     grid-gap: auto;
     padding: 50px 10px 10px 10px;
-    max-height: auto;
     height: 5%;
-    width: auto;
-    position: relative;
-    overflow: hidden;
-    max-width: 2000px;
-}
+    max-height: 100%;
+    width: 100%;
+    max-width: 100%;
+    }
 .grid-container1 > div {
-    background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
     padding: 0 0;
     width: auto;
-    height: 90%;
+    height: auto;
 }
 .grid-container2 {
     display: grid;
     grid-gap: auto;
     padding: 50px 10px 10px 10px;
-    max-height: auto;
     height: 5%;
-    width: auto;
-    position: relative;
-    overflow: hidden;
-    max-width: 2000px;
+    max-height: 100%;
+    width: 100%;
+    max-width: 100%;
 }
 .grid-container2 > div {
-    background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
     padding: 0 0;
-    height: 100%;
     width: auto;
+    height: auto;
+}
+.grid-item {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    border: salmon solid 10px;
 }
 .grid-text {
     padding-bottom: 20px;
-    height: 5%;
-    width: 50%;
-    margin-right: 50%;
-    margin-left: 50%;
-    min-width: 100px;   
-    transform: translate(-50%, -50%);
-}
-.grid-in-text {
-    font-size: 25px;
+    height: 50px;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    font-size: 100%;
+    font-family: 'Domine', serif;
+    color: #262626;
     text-align: center;
+    border: lightgreen 10px solid;
+}
+.grid-maand-text {
+    padding-bottom: 20px;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    font-size: 200%;
+    font-family: 'Domine', serif;
+    color: #262626;
+    text-align: center;
+    border: lightgreen 10px solid;
 }
 .grid-img {
-    display: block;
-    height: auto;
     width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 70%;
+    border: blue 10px solid;
+}
+.maand-img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 70%;
+    border: lightblue 10px solid;
 }
 .item1-last {
     grid-column: 5;
@@ -263,4 +277,11 @@ a:active {
 .center {
     display: block;
     text-align: center;
+}
+.center-block {
+    top: 50%;
+    bottom: 50%;
+    margin: 0 50% 0 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
 }
