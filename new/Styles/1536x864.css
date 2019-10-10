@@ -61,7 +61,6 @@ body {
 .footer-block {
     justify-content: center;
     display: flex;
-    background: lightgrey;
     border: burlywood 5px solid;
     margin: 0 0 25px;
 }
