@@ -11,22 +11,4 @@
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
 </url>
-<url>
-    <loc>http://woodwick-informatie.nl</loc>
-    <lastmod>2019-10-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-</url>  
-<url>
-    <loc>http://woodwick-information.online</loc>
-    <lastmod>2019-10-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-</url>  
-<url>
-    <loc>http://woodwick-informatie.online</loc>
-    <lastmod>2019-10-04</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-</url>  
 </urlset>      
